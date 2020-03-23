@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/74a2934d3cbc86f441071be6bbd6543c.json",
+    "@type": "cr:Curation",
+    "label": "淳化閣帖#06#袁生帖_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/74a2934d3cbc86f441071be6bbd6543c.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167819/canvas/p27#xywh=457,446,1474,5311",
+                    "@type": "sc:Canvas",
+                    "label": 27
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167819/canvas/p28#xywh=5399,420,555,5352",
+                    "@type": "sc:Canvas",
+                    "label": 28
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/45/manifest.json",
+                "@label": "泉州本淳化閣帖 六 [A006099-03]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/9257cda93a0544884c91131b1d5124dc.json",
+    "@type": "cr:Curation",
+    "label": "淳化閣帖#06#一起帖_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/9257cda93a0544884c91131b1d5124dc.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167819/canvas/p24#xywh=1724,446,2199,5360",
+                    "@type": "sc:Canvas",
+                    "label": 24
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/45/manifest.json",
+                "@label": "泉州本淳化閣帖 六 [A006099-03]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/59c7d8a6035507572e386c713431c95f.json",
+    "@type": "cr:Curation",
+    "label": "淳化閣帖#08#增慨帖_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/59c7d8a6035507572e386c713431c95f.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167821/canvas/p17#xywh=360,410,2075,5336",
+                    "@type": "sc:Canvas",
+                    "label": 17
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167821/canvas/p18#xywh=5046,397,878,5356",
+                    "@type": "sc:Canvas",
+                    "label": 18
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/47/manifest.json",
+                "@label": "泉州本淳化閣帖 八 [A006099-05]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

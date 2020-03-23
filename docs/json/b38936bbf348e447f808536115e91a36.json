@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/b38936bbf348e447f808536115e91a36.json",
+    "@type": "cr:Curation",
+    "label": "淳化閣帖#08#雨快帖_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/b38936bbf348e447f808536115e91a36.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167821/canvas/p22#xywh=420,446,4241,5323",
+                    "@type": "sc:Canvas",
+                    "label": 22
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167821/canvas/p23#xywh=5068,449,826,5305",
+                    "@type": "sc:Canvas",
+                    "label": 23
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/47/manifest.json",
+                "@label": "泉州本淳化閣帖 八 [A006099-05]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

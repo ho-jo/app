@@ -1,0 +1,46 @@
+
+<header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light white scrolling-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../">異版比較支援プロトタイプシステム・Comparison of Different Editions in Hojo</a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="ali">
+            <a class="nav-link" href="authorities.html">典拠データ・Authority Data</a>
+          </li>
+          <li class="nav-item" id="ili">
+            <a class="nav-link" href="item.html">個別データ・Individual Data</a>
+          </li>
+          <li class="nav-item" id="ili">
+            <a class="nav-link" href="https://github.com/nakamura196/narita/tree/master/dataset">データセット・Data Set</a>
+          </li>
+          <li class="nav-item" id="ili">
+            <a class="nav-link" href="https://github.com/nakamura196/narita/tree/master/docs/json">キュレーションリスト・Curation List</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--/.Navbar-->
+
+</header>
+
+<script>
+if(location.pathname.indexOf("item.html") != -1){
+  $("#ili").addClass("active")
+} else {
+  $("#ali").addClass("active")
+}
+
+</script>
